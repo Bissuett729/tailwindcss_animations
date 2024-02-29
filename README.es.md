@@ -2,15 +2,6 @@
 
 # Awesome Tailwind Animations
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](./README.md)
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](./README.es.md)
-
-![GitHub stars](https://img.shields.io/github/stars/midudev/tailwind-animations)
-![GitHub Forks](https://img.shields.io/github/forks/midudev/tailwind-animations)
-![GitHub PRs](https://img.shields.io/github/issues-pr/midudev/tailwind-animations)
-![GitHub issues](https://img.shields.io/github/issues/midudev/tailwind-animations)
-![GitHub Contributors](https://img.shields.io/github/contributors/midudev/tailwind-animations)
-
 ![web](./lib/imgs/web.jpg)
 
 ![Tailwind
@@ -29,9 +20,9 @@ información.
 Instala el paquete con tu gestor de paquetes favorito:
 
 ```sh
-$ npm install @midudev/tailwind-animations
-$ pnpm add @midudev/tailwind-animations
-$ yarn add @midudev/tailwind-animations
+$ npm install @bissuett729/tailwind-animations
+$ pnpm add @bissuett729/tailwind-animations
+$ yarn add @bissuett729/tailwind-animations
 ```
 
 Usa el plugin en tu configuración de Tailwind:
@@ -39,7 +30,7 @@ Usa el plugin en tu configuración de Tailwind:
 ```js
 
 // tailwind.config.mjs
-import animations from '@midudev/tailwind-animations'
+import animations from '@bissuett729/tailwind-animations'
 
 export default {
   // resto de opciones
@@ -63,9 +54,3 @@ Este plugin trae varias clases de utilidad así como varias animaciones CSS list
   Slow animation after 300ms to slide in from bottom
 </div>
 ```
-
-## Contribuidores
-
-<a href="https://github.com/midudev/tailwind-animations/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=midudev/tailwind-animations" />
-</a>

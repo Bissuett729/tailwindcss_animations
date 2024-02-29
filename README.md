@@ -2,17 +2,6 @@
 
 # Awesome Tailwind Animations
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](./README.md)
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](./README.es.md)
-
-![GitHub stars](https://img.shields.io/github/stars/midudev/tailwind-animations)
-![GitHub Forks](https://img.shields.io/github/forks/midudev/tailwind-animations)
-![GitHub PRs](https://img.shields.io/github/issues-pr/midudev/tailwind-animations)
-![GitHub issues](https://img.shields.io/github/issues/midudev/tailwind-animations)
-![GitHub Contributors](https://img.shields.io/github/contributors/midudev/tailwind-animations)
-
-![web](./lib/imgs/web.jpg)
-
 ![Tailwind
 CSS](https://img.shields.io/badge/Tailwind%20CSS-3.4.1-blue?style=for-the-badge&logo=tailwind-css)
 ![Astro](https://img.shields.io/badge/Astro-4.3.3-orange?style=for-the-badge&logo=astro)
@@ -30,15 +19,15 @@ Visit the [website](https://tailwindcss-animations.vercel.app/) to get more info
 
 - npm
 ```bash
-npm install @midudev/tailwind-animations
+npm install @bissuett729/tailwind-animations
 ```
 - pnpm
 ```bash
-pnpm install @midudev/tailwind-animations
+pnpm install @bissuett729/tailwind-animations
 ```
 - yarn
 ```bash
-yarn add @midudev/tailwind-animations
+yarn add @bissuett729/tailwind-animations
 ```
 
 #### Plugin Implementation
@@ -46,7 +35,7 @@ yarn add @midudev/tailwind-animations
 
 ```js
 // tailwind.config.mjs
-import animations from '@midudev/tailwind-animations'
+import animations from '@bissuett729/tailwind-animations'
 
 export default {
   // rest of the options
@@ -71,9 +60,3 @@ export default {
   Slow animation after 300ms to slide in from bottom
 </div>
 ```
-
-## Contributors 👑
-  
-<a href="https://github.com/midudev/tailwind-animations/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=midudev/tailwind-animations" />
-</a>
