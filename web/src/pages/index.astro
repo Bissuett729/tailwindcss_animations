@@ -14,12 +14,12 @@ const { version } = pkg
 ---
 
 <Layout
-  title='Tailwind CSS Animations Plugin: Community-Powered Animation Magic'
+  title='Tailwind CSS Animations Plugin'
 >
   <wc-toast></wc-toast>
-  <main class='pb-20'>
+  <main class='pb-10'>
     <header
-      class='mx-auto flex max-w-4xl flex-col items-center justify-center py-10'
+      class='mx-auto flex max-w-4xl flex-col items-center justify-center py-5'
     >
       <div
         class='flex items-center justify-center gap-x-2 *:inline-flex *:items-center *:justify-center *:rounded *:bg-black/10 *:px-2 *:py-1 *:text-xs *:font-medium'
@@ -28,7 +28,7 @@ const { version } = pkg
         <span>v.{version}</span>
         <a
           aria-label='View website repository on GitHub'
-          href='https://github.com/bissuett729/tailwind-animations'
+          href='https://github.com/Bissuett729/tailwindcss_animations'
           target='_blank'
           rel='noopener noreferrer'
           class='transition-colors ease-in-out hover:bg-black/20'
@@ -36,16 +36,16 @@ const { version } = pkg
           <Github class='size-4' />
         </a>
       </div>
-      <h1 class='text-center text-4xl font-semibold'>
+      <h1 class='text-center text-5xl font-semibold mt-4'>
         tailwind css animations
       </h1>
-      <h2 class='font-medium opacity-70'>the plugin that you need! =)</h2>
+      <!-- <h2 class='font-medium opacity-70'>the plugin that you need! =)</h2> -->
       <div class='mt-10 px-2 sm:px-0'>
-        <span class='mb-1 text-xs font-semibold opacity-50'
+        <span class='mb-1 text-xs font-semibold opacity-85'
           >1. Install the dependency</span
         >
         <div
-          class='flex w-full max-w-md items-center justify-between gap-x-2 rounded-xl bg-[#1e1e1e] py-1 pl-4 pr-1 text-center text-white backdrop-blur'
+          class='flex w-full max-w-md items-center justify-between gap-x-2 rounded-md bg-[#1e1e1e] py-3 pl-4 pr-2 text-center text-white backdrop-blur'
         >
           <pre
             class='flex text-sm'>
@@ -59,11 +59,11 @@ const { version } = pkg
             <CopyIcon />
           </button>
         </div>
-        <span class='mb-1 mt-4 block text-left text-xs font-semibold opacity-50'
+        <span class='mb-1 mt-4 block text-left text-xs font-semibold opacity-85'
           >2. Add to your configuration</span
         >
         <div
-          class='flex w-full max-w-md items-center gap-x-2 rounded-xl bg-[#1e1e1e] py-3 pl-4 pr-4 text-center text-white backdrop-blur'
+          class='flex w-full max-w-md items-center gap-x-2 rounded-md bg-[#1e1e1e] py-3 pl-4 pr-4 text-center text-white backdrop-blur'
         >
           <pre
             class='flex text-left text-xs'>
@@ -82,7 +82,7 @@ export default {
       <label class='relative inline-flex cursor-pointer items-center'>
         <input type='checkbox' value='' class='peer sr-only' id='animate' />
         <div
-          class="rtl:peer-checked:after:-translate-x- peer h-8 w-16 rounded-full bg-gray-200 after:absolute after:start-[2px] after:top-[2px] after:size-7 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-zinc-600 peer-checked:after:translate-x-[40px] peer-checked:after:border-white peer-focus:outline-none dark:bg-zinc-300"
+          class="rtl:peer-checked:after:-translate-x- peer h-8 w-16 rounded-full bg-gray-200 after:absolute after:start-[2px] after:top-[2px] after:size-7 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-[#00bb40] peer-checked:after:translate-x-[31px] peer-checked:after:border-white peer-focus:outline-none dark:bg-zinc-300"
         >
         </div>
         <span class='ms-3 text-xl font-medium text-gray-900 dark:text-gray-100'>Animate all</span>
@@ -126,7 +126,7 @@ export default {
               data-class={animationKey}
             >
               <div class='flex h-full w-full flex-col items-center justify-center gap-4 p-4'>
-                <span class='flex h-16 w-16 items-center justify-center rounded-md bg-zinc-600' />
+                <span class='flex h-16 w-16 items-center justify-center rounded-md bg-[#0098d5]' />
                 <p class='text-sm font-semibold opacity-80'>{animationKey}</p>
               </div>
               <button
@@ -154,16 +154,9 @@ export default {
 
       <p>
         Created by <a
-          href='https://twitter.com/bissuett729'
+          href='https://github.com/Bissuett729/tailwindcss_animations'
           target='_blank'
           rel='noopener noreferrer'>bissuett729</a
-        >
-        and his precious <a
-          href='https://github.com/bissuett729/tailwind-animations'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          community❤</a
         >
       </p>
       
