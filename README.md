@@ -1,6 +1,7 @@
 <div align="center">
 
 # Awesome Tailwind Animations
+![web](./lib/imgs/web.jpg)
 
 ![Tailwind
 CSS](https://img.shields.io/badge/Tailwind%20CSS-3.4.1-blue?style=for-the-badge&logo=tailwind-css)
